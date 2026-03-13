@@ -4,7 +4,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nascimento Solutions | Business Card</title>
-    <!-- Favicon com as iniciais NS -->
     <link rel="icon" type="image/png" href="https://ui-avatars.com/api/?name=NS&background=1e3a8a&color=fff&rounded=true">
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
@@ -12,6 +11,35 @@
         .glass { background: rgba(255, 255, 255, 0.95); backdrop-filter: blur(10px); }
         .bg-gradient { background: linear-gradient(135deg, #1e3a8a 0%, #3b82f6 100%); }
         
+        /* Estilo do Botão PDF com Glassmorphism */
+        .btn-solutions {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: rgba(30, 58, 138, 0.1);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(30, 58, 138, 0.2);
+            color: #1e3a8a;
+            padding: 12px;
+            border-radius: 12px;
+            text-decoration: none;
+            font-weight: bold;
+            margin-top: 10px;
+            transition: 0.3s;
+            font-size: 0.875rem;
+        }
+
+        .btn-solutions:hover {
+            background: rgba(30, 58, 138, 0.2);
+            transform: translateY(-2px);
+        }
+
+        .btn-solutions i {
+            margin-right: 10px;
+            color: #ff4d4d; /* Cor característica do PDF */
+            font-size: 1.1rem;
+        }
+
         @media (max-height: 700px) {
             .main-card { transform: scale(0.95); }
         }
@@ -45,7 +73,6 @@
             </div>
 
             <div class="grid grid-cols-1 gap-3">
-                <!-- WhatsApp com mensagem personalizada -->
                 <a href="https://wa.me/5511910526709?text=Olá%20Tatiane,%20vi%20seu%20cartão%20digital%20e%20gostaria%20de%20saber%20mais%20sobre%20as%20soluções%20da%20Nascimento%20Solutions%20para%20meu%20negócio." target="_blank" class="flex items-center justify-center space-x-2 bg-green-600 text-white py-3 md:py-4 rounded-xl hover:bg-green-700 transition text-sm md:text-base font-semibold shadow-lg shadow-green-200">
                     <i class="fab fa-whatsapp text-lg"></i>
                     <span>WhatsApp Business</span>
@@ -56,10 +83,14 @@
                     <span>Enviar E-mail</span>
                 </a>
                 
-                <!-- Portfólio atualizado para o GitHub -->
                 <a href="https://github.com/tatiane347" target="_blank" class="flex items-center justify-center space-x-2 border-2 border-slate-800 text-slate-800 py-3 md:py-4 rounded-xl hover:bg-slate-50 transition text-sm md:text-base font-semibold">
                     <i class="fab fa-github"></i>
                     <span>Ver Portfólio (GitHub)</span>
+                </a>
+
+                <a href="Nascimento-Solutions (1).pdf" download="Apresentacao_Nascimento_Solutions.pdf" class="btn-solutions">
+                    <i class="fas fa-file-pdf"></i> 
+                    <span>Baixar Apresentação Institucional (PDF)</span>
                 </a>
             </div>
         </div>
@@ -70,8 +101,7 @@
     </div>
 
     <script>
-        console.log("Nascimento Solutions: Interface atualizada com WhatsApp e Portfólio.");
+        console.log("Nascimento Solutions: Interface atualizada com Catálogo Institucional PDF.");
     </script>
 </body>
 </html>
-
