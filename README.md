@@ -37,3 +37,43 @@
 
 ​Desenvolvido com 💡 e visão estratégica por Tatiane Nascimento De Souza.
 
+​<!-- Mockup Principal (Computador e Celular) -->
+
+​<p align="center">
+
+<img src="./mockup.png" alt="" width="100%">
+
+</p>
+
+​<hr>
+
+​<!-- Grid de Detalhes (Lado a Lado) -->
+
+​<div align="center">
+
+<table border="0">
+
+<tr>
+
+<td width="50%" align="center">
+
+<p><b>Visualização Desktop</b></p>
+
+<img src="./mockup2.png" alt="" width="100%">
+
+</td>
+
+<td width="50%" align="center">
+
+<p><b>Visualização Mobile (Samsung A10)</b></p>
+
+<img src="./mobile-view.png" alt="" width="100%">
+
+</td>
+
+</tr>
+
+</table>
+
+</div>
+
