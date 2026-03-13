@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nascimento Solutions | Business Card</title>
+    <!-- Favicon com as iniciais NS -->
+    <link rel="icon" type="image/png" href="https://ui-avatars.com/api/?name=NS&background=1e3a8a&color=fff&rounded=true">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        .glass { background: rgba(255, 255, 255, 0.95); backdrop-filter: blur(10px); }
+        .bg-gradient { background: linear-gradient(135deg, #1e3a8a 0%, #3b82f6 100%); }
+        
+        @media (max-height: 700px) {
+            .main-card { transform: scale(0.95); }
+        }
+    </style>
+</head>
+<body class="bg-gradient min-h-screen flex items-center justify-center p-4 font-sans overflow-x-hidden">
+
+    <div class="main-card max-w-md md:max-w-lg w-full glass rounded-3xl shadow-2xl overflow-hidden transform transition-all hover:scale-[1.01] duration-300">
+        
+        <div class="bg-slate-900 p-8 md:p-10 text-center">
+            <h1 class="text-2xl md:text-3xl font-bold text-white tracking-wider uppercase">Nascimento Solutions</h1>
+            <p class="text-blue-400 text-sm md:text-base font-medium mt-1">Tecnologia & Estratégia B2B</p>
+        </div>
+
+        <div class="p-8 md:p-12">
+            <div class="text-center mb-6 md:mb-8">
+                <h2 class="text-xl md:text-2xl font-bold text-slate-800">Tatiane Nascimento</h2>
+                <p class="text-slate-600 md:text-lg">Arquiteta de Soluções | Founder</p>
+                <p class="text-xs text-slate-400 mt-1 uppercase tracking-tighter">CNPJ: 65.571.026/0001-35</p>
+            </div>
+
+            <div class="space-y-4 mb-8">
+                <div class="flex items-start space-x-3 bg-blue-50 p-3 md:p-4 rounded-lg">
+                    <i class="fas fa-code text-blue-600 mt-1 text-lg"></i>
+                    <p class="text-sm md:text-base text-slate-700 font-medium">Desenvolvimento de Landing Pages de Alta Performance.</p>
+                </div>
+                <div class="flex items-start space-x-3 bg-blue-50 p-3 md:p-4 rounded-lg">
+                    <i class="fas fa-chart-line text-blue-600 mt-1 text-lg"></i>
+                    <p class="text-sm md:text-base text-slate-700 font-medium">Inteligência Comercial e Prospecção B2B (SDR/BDR).</p>
+                </div>
+            </div>
+
+            <div class="grid grid-cols-1 gap-3">
+                <!-- WhatsApp com mensagem personalizada -->
+                <a href="https://wa.me/5511910526709?text=Olá%20Tatiane,%20vi%20seu%20cartão%20digital%20e%20gostaria%20de%20saber%20mais%20sobre%20as%20soluções%20da%20Nascimento%20Solutions%20para%20meu%20negócio." target="_blank" class="flex items-center justify-center space-x-2 bg-green-600 text-white py-3 md:py-4 rounded-xl hover:bg-green-700 transition text-sm md:text-base font-semibold shadow-lg shadow-green-200">
+                    <i class="fab fa-whatsapp text-lg"></i>
+                    <span>WhatsApp Business</span>
+                </a>
+
+                <a href="mailto:nascimentosolutionstatiane@gmail.com" class="flex items-center justify-center space-x-2 bg-slate-800 text-white py-3 md:py-4 rounded-xl hover:bg-slate-700 transition text-sm md:text-base font-semibold">
+                    <i class="fas fa-envelope"></i>
+                    <span>Enviar E-mail</span>
+                </a>
+                
+                <!-- Portfólio atualizado para o GitHub -->
+                <a href="https://github.com/tatiane347" target="_blank" class="flex items-center justify-center space-x-2 border-2 border-slate-800 text-slate-800 py-3 md:py-4 rounded-xl hover:bg-slate-50 transition text-sm md:text-base font-semibold">
+                    <i class="fab fa-github"></i>
+                    <span>Ver Portfólio (GitHub)</span>
+                </a>
+            </div>
+        </div>
+
+        <div class="bg-slate-50 p-4 md:p-6 text-center border-t border-slate-100">
+            <p class="text-[10px] md:text-xs text-slate-400 uppercase font-bold italic">Soluções maduras para mercados de alta escala</p>
+        </div>
+    </div>
+
+    <script>
+        console.log("Nascimento Solutions: Interface atualizada com WhatsApp e Portfólio.");
+    </script>
+</body>
+</html>
+
